@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import quizData from './quizData';
+import { signOut } from 'aws-amplify/auth';
 
 function Quiz() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -17,6 +18,7 @@ function Quiz() {
     } else {
       setShowScore(true);
     }
+<<<<<<< HEAD
   };
 
   const handleRestart = () => {
@@ -28,7 +30,20 @@ function Quiz() {
   const handleSignOut = () => {
     // Add sign out logic here, e.g., redirect to login page or clear user session
     alert("Signed out");
+=======
+>>>>>>> d31f24fcbd886168074c7990ac8f74b273a5b738
   };
+
+  const handleRestart = () => {
+    setCurrentQuestion(0);
+    setShowScore(false);
+    setScore(0);
+  };
+
+  // const handleSignOut = () => {
+  //   // Add sign out logic here, e.g., redirect to login page or clear user session
+  //   alert("Signed out");
+  // };
 
   return (
     <div className='app'>
@@ -39,7 +54,11 @@ function Quiz() {
             <button className='restart-button' onClick={handleRestart}>Restart Quiz</button>
           </div>
         </div>
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> d31f24fcbd886168074c7990ac8f74b273a5b738
       ) : (
         <>
           <div className='question-section'>
@@ -57,10 +76,17 @@ function Quiz() {
           </div>
         </>
       )}
+<<<<<<< HEAD
     
       <button 
         className='signout-button' 
         onClick={handleSignOut}
+=======
+
+      <button
+        className='signout-button'
+        onClick={signOut}
+>>>>>>> d31f24fcbd886168074c7990ac8f74b273a5b738
       >
         <span className="transition"></span>
         <span className="gradient"></span>

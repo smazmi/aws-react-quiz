@@ -31,6 +31,20 @@ function App() {
               {/* Quiz Component */}
               <Quiz />
               {/* Sign Out Button */}
+<<<<<<< HEAD
+=======
+              {/* <button */}
+              {/*   onClick={signOut} */}
+              {/*   style={{ */}
+              {/*     margin: '20px', */}
+              {/*     fontSize: '0.8rem', */}
+              {/*     padding: '5px 10px', */}
+              {/*     marginTop: '20px' */}
+              {/*   }} */}
+              {/* > */}
+              {/*   Sign Out */}
+              {/* </button> */}
+>>>>>>> d31f24fcbd886168074c7990ac8f74b273a5b738
             </header>
           </main>
         )}

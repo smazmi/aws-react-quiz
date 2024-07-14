@@ -118,6 +118,12 @@ const quizData = [
   }
 ];
 
+<<<<<<< HEAD
   
   export default quizData;
   
+=======
+
+export default quizData;
+
+>>>>>>> d31f24fcbd886168074c7990ac8f74b273a5b738
