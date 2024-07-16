@@ -12,16 +12,10 @@ body {
   min-height: 100vh;
 }
 
-<<<<<<< HEAD
-* {
-  color: #ffffff;
-}
-=======
 /* * { */
 /*   font-family: "Verdana", cursive, sans-serif; */
 /*   color: #ffffff; */
 /* } */
->>>>>>> d31f24fcbd886168074c7990ac8f74b273a5b738
 
 .App {
   text-align: center;
@@ -78,12 +72,8 @@ body {
 
 .score-section {
   display: flex;
-<<<<<<< HEAD
-  flex-direction: column; /* Arrange items vertically */
-=======
   flex-direction: column;
   /* Arrange items vertically */
->>>>>>> d31f24fcbd886168074c7990ac8f74b273a5b738
   font-size: 24px;
   align-items: center;
   justify-content: center;
@@ -164,22 +154,14 @@ button svg {
 }
 
 .restart-button:hover {
-<<<<<<< HEAD
-  background-color:  rgb(139, 136, 136);
-=======
   background-color: rgb(139, 136, 136);
->>>>>>> d31f24fcbd886168074c7990ac8f74b273a5b738
 }
 
 .signout-button {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
   font-size: 17px;
-<<<<<<< HEAD
-  width: 40%;
-=======
   width: 50%;
->>>>>>> d31f24fcbd886168074c7990ac8f74b273a5b738
   padding: 1em 2.7em;
   font-weight: 500;
   background: #1f2937;
@@ -189,18 +171,6 @@ button svg {
   overflow: hidden;
   border-radius: 0.6em;
   cursor: pointer;
-<<<<<<< HEAD
-  
-
-  /*center aligment*/
-  display: block;/* Ensures it behaves as a block element */
-  justify-content: center;
-  align-items: center;
-  
-  /* Center align horizontally */
-  margin: 0 auto;
-   
-=======
 
 
   /*center aligment*/
@@ -212,7 +182,6 @@ button svg {
   /* Center align horizontally */
   margin: 0 auto;
 
->>>>>>> d31f24fcbd886168074c7990ac8f74b273a5b738
 }
 
 .signout-button .gradient {
@@ -223,17 +192,9 @@ button svg {
   top: 0;
   border-radius: 0.6em;
   margin-top: -0.25em;
-<<<<<<< HEAD
-  background-image: linear-gradient(
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.3)
-  );
-=======
   background-image: linear-gradient(rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 0.3));
->>>>>>> d31f24fcbd886168074c7990ac8f74b273a5b738
 }
 
 .signout-button .label {
@@ -262,7 +223,3 @@ button svg {
 .signout-button:active {
   transform: scale(0.97);
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> d31f24fcbd886168074c7990ac8f74b273a5b738
