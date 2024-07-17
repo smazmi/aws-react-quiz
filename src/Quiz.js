@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import quizData from './quizData';
+import { signOut } from 'aws-amplify/auth';
 
 function Quiz() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -67,8 +68,8 @@ function Quiz() {
                 key={index}
                 onClick={() => handleAnswerOptionClick(option)}
                 style={{
-                  backgroundColor: selectedAnswer === option.answerText 
-                    ? (isCorrect ? '#006400' : '#800000') 
+                  backgroundColor: selectedAnswer === option.answerText
+                    ? (isCorrect ? '#006400' : '#800000')
                     : ''
                 }}
               >
